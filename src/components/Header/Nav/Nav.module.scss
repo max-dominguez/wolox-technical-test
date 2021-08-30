@@ -1,0 +1,12 @@
+@import '../../../styles/variables/colors.scss';
+
+.nav {
+  background-color: $nav_background_color;
+  color: $nav_font_color;
+  height: 50px;
+  padding: 0 15px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

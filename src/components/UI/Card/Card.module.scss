@@ -1,0 +1,22 @@
+@import '../../../styles/variables/colors.scss';
+
+.card {
+  background-color: $white;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  overflow: visible;
+}
+
+@media (min-width: 701px) and (max-width: 1024px) {
+  .card {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .card {
+    width: 100%;
+  }
+}

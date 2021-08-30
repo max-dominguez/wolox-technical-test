@@ -1,0 +1,32 @@
+{
+  "text": {
+    "signup_form_title": "Hello!",
+    "signup_form_subtitle": "Please sign up to continue",
+    "signup_form_first_name": "First Name",
+    "signup_form_last_name": "Last Name",
+    "signup_form_email": "Email",
+    "signup_form_phone": "Phone",
+    "signup_form_password": "Password",
+    "signup_form_confirm_password": "Confirm Password",
+    "signup_form_select_country": "Select Country",
+    "terms_and_conditions": "Terms & Conditions",
+    "signup_form_create_user_button": "Sign Up!",
+    "signup_form_success_title": "Welcome!",
+    "signup_form_success_message": "Great news! Your registration was successful. We are glad you are part of our community. Thank you!",
+    "signup_form_error_message": "Something went wrong! Please try again.",
+    "footer_text": "2021 | Engineering Manager Technical Interview - Part 2",
+    "loading": "Loading",
+    "logout_button": "Logout"
+  },
+  "validations": {
+    "invalid_type": "This field is invalid.",
+    "required": "This field is required.",
+    "email": "Email is invalid.",
+    "phone": "Phone must contain numbers only.",
+    "password": "Password must contain alphanumeric characters only.",
+    "confirmPassword": "Passwords don't match.",
+    "acceptTerms": "You must accept Terms and Conditions.",
+    "min_length": "This field needs at least {{min}} character.",
+    "max_length": "This field needs at most {{max}} character."
+  }
+}

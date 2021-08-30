@@ -1,0 +1,12 @@
+@import 'styles/variables/colors.scss';
+@import 'styles/variables/fonts.scss';
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $main_font_family;
+  font-size: $main_font_size;
+  color: $main_font_color;
+  -webkit-font-smoothing: antialiased;
+}

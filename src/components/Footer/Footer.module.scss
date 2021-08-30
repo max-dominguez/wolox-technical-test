@@ -1,0 +1,17 @@
+@import '../../styles/variables/fonts.scss';
+@import '../../styles/variables/colors.scss';
+
+.footer {
+  background-color: $footer_background_color;
+  color: $footer_font_color;
+  height: 50px;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 700px) {
+  .footer {
+    font-size: $footer_small_font_size;
+  }
+}

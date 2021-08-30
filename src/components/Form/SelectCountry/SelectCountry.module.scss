@@ -1,0 +1,18 @@
+@import '../../../styles/variables/fonts.scss';
+@import '../../../styles/variables/colors.scss';
+
+.country_select_option {
+  color: $gray_6 !important;
+  font-family: $main_font_family !important;
+  display: flex !important;
+  align-items: center;
+
+  .flag {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+  }
+}

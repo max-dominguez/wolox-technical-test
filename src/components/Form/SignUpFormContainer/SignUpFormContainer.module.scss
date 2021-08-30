@@ -1,0 +1,161 @@
+@import '../../../styles/variables/fonts.scss';
+@import '../../../styles/variables/colors.scss';
+
+.signup_form_container {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  padding: 50px;
+
+  .form_title {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin: 0;
+  }
+
+  .form_subtitle {
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    margin: 10px 0 25px 0;
+    color: $gray_6;
+  }
+
+  .textfield {
+    display: flex;
+
+    input {
+      flex: 1;
+      padding: 10px;
+      margin-bottom: 10px;
+      font-size: 14px;
+      color: $gray_5;
+      border-color: $gray_2;
+      border-radius: 4px;
+      border-style: solid;
+      border-width: 1px;
+      position: relative;
+
+      &:hover {
+        border-color: $gray_4;
+      }
+    }
+  }
+
+  .select_country {
+    margin-bottom: 10px;
+    color: $gray_5;
+  }
+
+  .accept_terms {
+    color: $gray_6;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    align-items: flex-end;
+
+    input {
+      width: auto;
+      margin: 0 15px 2px 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: $gray_6;
+
+      &:hover {
+        color: $gray_5;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .submit_button {
+    position: relative;
+    overflow: hidden;
+    color: $white_1;
+    width: 100%;
+    margin-top: 30px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+    z-index: 0;
+    cursor: pointer;
+  }
+
+  .submit_button_enabled {
+    background-color: $submit_button;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: -50px;
+      left: 0;
+      color: $white;
+      z-index: -1;
+      border-right: 50px solid transparent;
+      border-bottom: 80px solid $submit_button_hover;
+      transition: 0.4s ease-in-out;
+      transform: translateX(-100%);
+    }
+
+    &:hover {
+      &:before {
+        transition: 0.4s ease-in-out;
+        transform: translateX(0%);
+      }
+    }
+  }
+
+  .submit_button_disabled {
+    background-color: $gray_3;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1024px) {
+  .signup_form_container {
+    flex: 0 0 600px;
+  }
+}
+
+@media (max-width: 700px) {
+  .signup_form_container {
+    padding: 10px;
+  }
+}
+
+@media (min-width: 351px) and (max-width: 700px) {
+  .signup_form_container {
+    flex: 0 0 300px;
+  }
+}
+
+@media (max-width: 350px) {
+  .signup_form_container {
+    flex: 1;
+  }
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

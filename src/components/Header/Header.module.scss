@@ -1,0 +1,17 @@
+@import '../../styles/variables/colors.scss';
+
+.header {
+  background-color: $header_background_color;
+  color: $header_font_color;
+  height: 80px;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user_section_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

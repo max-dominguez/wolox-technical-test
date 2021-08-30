@@ -1,0 +1,7 @@
+@import '../../../styles/variables/colors.scss';
+
+.error_message {
+  margin: 0 10px 20px 10px;
+  color: $error_message;
+  font-weight: 500;
+}

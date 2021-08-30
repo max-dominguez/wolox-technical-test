@@ -1,0 +1,17 @@
+@import '../../../styles/variables/colors.scss';
+
+.logout_button {
+  position: relative;
+  overflow: hidden;
+  color: $white_1;
+  width: 100px;
+  margin-left: 10px;
+  padding: 12px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: none;
+  font-weight: bolder;
+  z-index: 0;
+  cursor: pointer;
+  background-color: $error_color_secondary;
+}

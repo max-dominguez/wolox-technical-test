@@ -1,0 +1,60 @@
+{
+  "name": "wolox-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "@types/jest": "^26.0.24",
+    "@types/node": "^12.20.21",
+    "@types/react": "^17.0.19",
+    "@types/react-dom": "^17.0.9",
+    "@types/react-select": "^4.0.17",
+    "classnames": "^2.3.1",
+    "eslint-plugin-jest": "^24.4.0",
+    "formik": "^2.2.9",
+    "i18next": "^20.4.0",
+    "node-sass": "^6.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-i18next": "^11.11.4",
+    "react-scripts": "4.0.3",
+    "react-select": "^4.3.1",
+    "react-toastify": "^7.0.4",
+    "typescript": "^4.4.2",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.24.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.1",
+    "eslint-plugin-react": "^7.24.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --detectOpenHandles",
+    "test:coverage": "react-scripts test --detectOpenHandles --coverage",
+    "eject": "react-scripts eject",
+    "eslint": "eslint --ext=.tsx,.ts ./src"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

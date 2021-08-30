@@ -1,0 +1,29 @@
+.user_info_container {
+  display: flex;
+  align-items: center;
+  text-align: right;
+  text-transform: capitalize;
+}
+
+.user_country_flag {
+  display: flex;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  margin: 0 10px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+@media (max-width: 500px) {
+  .user_info_container {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .user_country_flag {
+    display: none;
+  }
+}

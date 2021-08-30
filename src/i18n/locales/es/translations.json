@@ -1,0 +1,32 @@
+{
+  "text": {
+    "signup_form_title": "Hola!",
+    "signup_form_subtitle": "Por favor regístrate antes de continuar",
+    "signup_form_first_name": "Nombre",
+    "signup_form_last_name": "Apellido",
+    "signup_form_email": "Email",
+    "signup_form_phone": "Teléfono",
+    "signup_form_password": "Contraseña",
+    "signup_form_confirm_password": "Confirmar Contraseña",
+    "signup_form_select_country": "Seleccionar País",
+    "signup_form_create_user_button": "Registrarse!",
+    "terms_and_conditions": "Términos & Condiciones",
+    "signup_form_success_title": "Bienvenido!",
+    "signup_form_success_message": "Buenas noticias! Tu registro fue exitoso. Nos alegra que formes parte de nuestra comunidad. Muchas gracias!",
+    "signup_form_error_message": "Ocurrió un error! Por favor inténtelo nuevamente.",
+    "footer_text": "2021 | Entrevista Técnica Engineering Manager - Parte 2",
+    "loading": "Cargando",
+    "logout_button": "Salir"
+  },
+  "validations": {
+    "invalid_type": "Este campo es inválido",
+    "required": "Este campo es obligatorio.",
+    "email": "El email no es válido.",
+    "phone": "El teléfono sólo debe contener números.",
+    "password": "El password debe ser alfanumérico.",
+    "confirmPassword": "Las contraseñas no coinciden.",
+    "acceptTerms": "Debe aceptar los Términos y Condiciones.",
+    "min_length": "Este campo debe contener al menos {{min}} caracteres.",
+    "max_length": "Este campo debe contener como máximo {{max}} caracteres."
+  }
+}
